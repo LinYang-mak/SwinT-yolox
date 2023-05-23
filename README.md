@@ -2,7 +2,7 @@
 
 Swin Transformer、YOLOX
 ----
-    自动扶梯在公共场合被广泛使用，乘客摔倒事故如果不能及时发现并处理，会造成严重的人身伤害，因此实现自动扶梯智能化监控管理势在必行。融合Swin Transformer和YoloX目标检测算法的优秀策略，提出了一种基于SwinT-YoloX网络模型的自动扶梯行人摔倒检测算法。
+自动扶梯在公共场合被广泛使用，乘客摔倒事故如果不能及时发现并处理，会造成严重的人身伤害，因此实现自动扶梯智能化监控管理势在必行。融合Swin Transformer和YoloX目标检测算法的优秀策略，提出了一种基于SwinT-YoloX网络模型的自动扶梯行人摔倒检测算法。
 
 相关仓库
 ----
@@ -30,23 +30,24 @@ Swin Transformer、YOLOX
  
 所需环境
 ---
-torch == 1.12.0
-其他配置请查看requirements.txt。
+torch == 1.12.0<br>
+其他配置请查看requirements.txt。<br>
 
 文件下载
 ----
-预训练权重下载
-针对：phi = "s"
-链接：https://pan.baidu.com/s/1h59nARjjdcS-vXZ7tMr3jg 
-提取码：mdv6
+预训练权重下载<br>
+针对：phi = "s"<br>
+链接：https://pan.baidu.com/s/1h59nARjjdcS-vXZ7tMr3jg <br>
+提取码：mdv6<br>
 
-扶梯摔倒检测所用模型
-链接：https://pan.baidu.com/s/1lhin605BSkgU3-o3Py1Dpg 
-提取码：varr
+扶梯摔倒检测所用模型<br>
+链接：https://pan.baidu.com/s/1lhin605BSkgU3-o3Py1Dpg <br>
+提取码：varr<br>
 
 结果展示
 ---
 实际扶梯事故行人摔倒检测结果图
+
 ![image](https://github.com/LinYang-mak/SwinT-yolox/blob/main/result_img/%E5%9B%BE13-1.jpg)
 
 ![image](https://github.com/LinYang-mak/SwinT-yolox/blob/main/result_img/%E5%9B%BE13-2.jpg)
